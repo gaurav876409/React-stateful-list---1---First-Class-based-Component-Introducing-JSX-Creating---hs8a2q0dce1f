@@ -39,7 +39,7 @@ const App = () => {
         ))}
       </select>
       <div id="selected-year">
-        {selectedYear ? `Selected year: ${selectedYear}` : 'No year selected'}
+        {selectedYear ? `Selected year-${selectedYear}` : 'No year selected'}
       </div>
       {selectedYear && (
         <ul>
